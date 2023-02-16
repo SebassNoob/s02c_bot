@@ -60,4 +60,5 @@ class Bot(commands.AutoShardedBot):
     
 bot = Bot()
 
-bot.run("MTA2OTI0MTg5NDA5OTQ5Mjg2NA.G4le4s.vgmmxF6AJyBgmbU1KYf97Sqk6sshWFTRdNxnkw")
+bot.run(os.environ['token'])
+
